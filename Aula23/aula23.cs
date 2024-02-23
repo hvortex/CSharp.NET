@@ -2,16 +2,15 @@ using System;
 class Aula23{
     static void Main(){
 
-        int[] vetor=new int[5];
-        int[] vetor=new int[5];
-        int[] vetor=new int[5];
+        int[] vetor1=new int[5];
+        int[] vetor2=new int[5];
+        int[] vetor3=new int[5];
         int[,] matriz=new int[2,5]{{11,22,00,44,55},{66,77,88,99,00}};
-
+        
         Random random=new Random();
-        for (int i=0;i< vetor1.length;i++){
+        for (int i=0;i< vetor1.Length;i++){
             vetor1[i]=random.Next(50);
         }
-
         Console.WriteLine("Elementos do vetor1");
         foreach(int n in vetor1){
             Console.WriteLine(n);
@@ -21,7 +20,7 @@ class Aula23{
         Console.WriteLine("BinarySearch");
         int procurado=33;
         int pos=Array.BinarySearch(vetor1,procurado);
-        console.WriteLine("Valor {0} está na posição {1}",procurado,pos);
+        Console.WriteLine("Valor {0} está na posição {1}",procurado,pos);
         Console.WriteLine("-----------------------------------------");
 
         //public static void Copy(Ar_origem,Ar_destino,qtde_elementos);
@@ -62,20 +61,20 @@ class Aula23{
 
         //public object GetValue(long índice);
         Console.WriteLine("GetValue");
-        int valor0=Convert.ToInt32(valor1.GetValue(3));
-        int valor1=convert.ToInt32(matriz.GetValue(1,3));
+        int valor0=Convert.ToInt32(vetor1.GetValue(3));
+        int valor1=Convert.ToInt32(matriz.GetValue(1,3));
         Console.WriteLine("Valor da posição 3 do vetor1: {0}",valor0);
         Console.WriteLine("-----------------------------------------");
 
         //public static int IndexOf(array,valor);
-        console.WriteLine("IndexOf");
-        int indice1+Array.IndexOf(valor1,3);
+        Console.WriteLine("IndexOf");
+        int indice1=Array.IndexOf(vetor1,3);
         Console.WriteLine("Indice do primeiro valor 3:{0}",indice1);
         Console.WriteLine("-----------------------------------------");
 
         //public static int LastIndexOf(array,valor);
-        console.WriteLine("LastIndexOf");
-        int indice2+Array.LastIndexOf(valor1,3);
+        Console.WriteLine("LastIndexOf");
+        int indice2=Array.LastIndexOf(vetor1,3);
         Console.WriteLine("Indice do primeiro valor 33:{0}",indice2);
         Console.WriteLine("-----------------------------------------");
 
@@ -111,7 +110,6 @@ class Aula23{
         foreach(int n in vetor3){
             Console.WriteLine(n);
         }
-
 
 
     }
