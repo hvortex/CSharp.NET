@@ -95,6 +95,23 @@ class Aula23{
             Console.WriteLine(n);
         }
 
+        //public static void Sort(array);
+        Array.Sort(vetor1);
+        Array.Sort(vetor2);
+        Array.Sort(vetor3);
+        Console.WriteLine("Vetor1");
+        foreach(int n in vetor1){
+            Console.WriteLine(n);
+        }
+        Console.WriteLine("\nVetor2");
+        foreach(int n in vetor2){
+            Console.WriteLine(n);
+        }
+        Console.WriteLine("\nVetor3");
+        foreach(int n in vetor3){
+            Console.WriteLine(n);
+        }
+
 
 
     }

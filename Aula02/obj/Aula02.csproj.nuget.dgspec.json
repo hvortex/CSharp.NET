@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hebert.soares\\Documents\\curso C# CFBCursos\\Aula02\\Aula02.csproj": {}
+    "C:\\Users\\Hebert.soares\\Documents\\CFBCursos\\Aula02\\Aula02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hebert.soares\\Documents\\curso C# CFBCursos\\Aula02\\Aula02.csproj": {
+    "C:\\Users\\Hebert.soares\\Documents\\CFBCursos\\Aula02\\Aula02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hebert.soares\\Documents\\curso C# CFBCursos\\Aula02\\Aula02.csproj",
+        "projectUniqueName": "C:\\Users\\Hebert.soares\\Documents\\CFBCursos\\Aula02\\Aula02.csproj",
         "projectName": "Aula02",
-        "projectPath": "C:\\Users\\Hebert.soares\\Documents\\curso C# CFBCursos\\Aula02\\Aula02.csproj",
+        "projectPath": "C:\\Users\\Hebert.soares\\Documents\\CFBCursos\\Aula02\\Aula02.csproj",
         "packagesPath": "C:\\Users\\Hebert.soares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hebert.soares\\Documents\\curso C# CFBCursos\\Aula02\\obj\\",
+        "outputPath": "C:\\Users\\Hebert.soares\\Documents\\CFBCursos\\Aula02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hebert.soares\\AppData\\Roaming\\NuGet\\NuGet.Config"
