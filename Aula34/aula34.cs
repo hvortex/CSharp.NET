@@ -25,7 +25,7 @@ class Carro:Veiculo{ //Classe Derivada
     public Carro(string nome, string cor){
         desligar();
         rodas=4;
-        velMax=120;
+        velMax=130;
         this.nome=nome;
         this.cor=cor;
     }
